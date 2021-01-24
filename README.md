@@ -39,4 +39,5 @@ To run this project locally follow the steps below :
 
 ## Result 
 
+![alt text](https://user-images.githubusercontent.com/16072777/104095678-81231a00-5298-11eb-8d3f-82fa1544a715.png)
 
