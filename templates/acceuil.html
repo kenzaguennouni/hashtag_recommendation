@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/static/header.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <title>Acceuil</title>
+</head>
+<body  style="background-color:white;">
+{% include "header.html" %}
+<section>
+  <br>
+  <br>
+  <br>
+  <br>
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="row mx-md-n5">
+            <div class="col px-md-5">
+                <img  src="static\hashtag2.png">
+            </div>
+            <div class="col px-md-5">
+                <center><h1 style="color:#1DA1F2; font-size:35px;">Hashtag Recommandation</h1></center>
+                <p>This application recommand hashtags using the Word2Vec module</p>
+                <!--<p>Detail ici nononoon</p>-->
+                <div>
+                  <form action="/recommendationPage/"><button class="btn btn-secondary btn-lg btn-block" style=" background-color: #1DA1F2; color: white;">Start application</button></form>
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
