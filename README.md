@@ -27,7 +27,7 @@ To run this project locally follow the steps below :
 
 2- Open the project in PyCharm.
 
-3- Extract zip file containing data
+3- Extract zip file containing data : data_tweets.zip
 
 4- Install the required libraries from the PyCharm terminal : ``` $ pip install -r requirements.txt ```
 
