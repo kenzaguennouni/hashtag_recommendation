@@ -31,8 +31,12 @@ To run this project locally follow the steps below :
 
 4- Install the required libraries from the PyCharm terminal : ``` $ pip install -r requirements.txt ```
 
-5- 
+5- run download_glove.py
 
-6- Run app.py
+6- Use application without flask run hashtag_recommendation.py
+
+6- Use application with flask Run app.py
+
+## Result 
 
 
