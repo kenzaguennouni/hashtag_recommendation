@@ -35,7 +35,7 @@ To run this project locally follow the steps below :
 
 6- Use application without flask run hashtag_recommendation.py
 
-6- Use application with flask Run app.py
+7- Use application with flask Run app.py
 
 ## Result 
 
