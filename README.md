@@ -18,6 +18,8 @@ This guideline is about how to run the Flask application locally.
 Project is created with:
 * Python version: 3 or more
 * PyCharm : community edition
+* tweepy
+* twint
 * texblob
 * flask
 * sklearn
