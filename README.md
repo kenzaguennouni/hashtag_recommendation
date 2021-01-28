@@ -13,8 +13,10 @@ The idea behind the project is to recommend hashtags for tweet.
 Then we will deploy a FLASK application to use it. 
 This guideline is about how to run the Flask application locally.  
 The data file is the result of extracting data using tweepy and twint.
+
   * Twint is an advanced Twitter scraping tool written in Python that allows you to retrieve Tweets from Twitter profiles without using the API
   * Tweepy is python library for accessing Twitter API for retrieving tweets.
+  
 This application bases on Word2vec and uses a glove (Global Vectors for Word Representation) tweet-50 is a gensim pretrained model.
 After i download my model i use a function build_embedding_dict  to have a vector representation for all my tweet and i call function "similar tweets" whitch take the tweet we want to predict hashtag, my t embedding_dict and my word2vec pre-trained.
 
@@ -43,7 +45,6 @@ To run this project locally follow the steps below :
 4- Install the required libraries from the PyCharm terminal :
 ``` 
 $ pip install -r requirements.txt 
-
 ```
 
 5- run download_glove.py
