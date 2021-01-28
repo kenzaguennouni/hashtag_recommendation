@@ -12,6 +12,8 @@
 The idea behind the project is to recommend hashtags for tweet. 
 Then we will deploy a FLASK application to use it. 
 This guideline is about how to run the Flask application locally.  
+The data file is the result of extracting data using tweepy and twint.
+
 
 ## Technologies and librairies
 
