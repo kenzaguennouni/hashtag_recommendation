@@ -13,11 +13,15 @@ The idea behind the project is to recommend hashtags for tweet.
 Then we will deploy a FLASK application to use it. 
 This guideline is about how to run the Flask application locally.  
 
-## Technologies
+## Technologies and librairies
 
 Project is created with:
 * Python version: 3 or more
 * PyCharm : community edition
+* texblob
+* flask
+* sklearn
+* gensim
 
 ## Setup 
 
